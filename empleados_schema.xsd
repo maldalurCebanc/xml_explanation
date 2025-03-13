@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empleado" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="datos_personales">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                    <xs:attribute name="apellidos" type="xs:string" use="required"/>
+                                    <xs:attribute name="fecha_nacimiento" type="xs:date"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="datos_laborales">
+                                <xs:complexType>
+                                    <xs:attribute name="departamento" type="xs:string" use="required"/>
+                                    <xs:attribute name="salario" type="xs:decimal" use="required"/>
+                                    <xs:attribute name="fecha_ingreso" type="xs:date" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id_empleado" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

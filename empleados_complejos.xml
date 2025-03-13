@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="empleados_schema.xsd">
+    <empleado id_empleado="E001">
+        <datos_personales 
+            nombre="Juan" 
+            apellidos="García López" 
+            fecha_nacimiento="1985-06-15"/>
+        <datos_laborales 
+            departamento="Ventas" 
+            salario="35000.50" 
+            fecha_ingreso="2020-03-01"/>
+    </empleado>
+    <empleado id_empleado="E002">
+        <datos_personales 
+            nombre="María" 
+            apellidos="López Martínez" 
+            fecha_nacimiento="1990-08-22"/>
+        <datos_laborales 
+            departamento="IT" 
+            salario="42000.75" 
+            fecha_ingreso="2019-11-15"/>
+    </empleado>
+    <empleado id_empleado="E003">
+        <datos_personales 
+            nombre="Carlos" 
+            apellidos="Ruiz Sánchez" 
+            fecha_nacimiento="1988-12-03"/>
+        <datos_laborales 
+            departamento="RRHH" 
+            salario="38000.25" 
+            fecha_ingreso="2021-01-10"/>
+    </empleado>
+</empresa>

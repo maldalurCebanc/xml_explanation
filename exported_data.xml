@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <record nombre="Juan García" departamento="Ventas" salario="35000"/>
+  <record nombre="María López" departamento="IT" salario="42000"/>
+  <record nombre="Carlos Ruiz" departamento="RRHH" salario="38000"/>
+</data>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado> 
+        <nombre>Juan García</nombre> 
+        <departamento>Ventas</departamento> 
+        <salario>35000</salario> 
+    </empleado>
+    <empleado> 
+        <nombre>María López</nombre> 
+        <departamento>IT</departamento> 
+        <salario>42000</salario> 
+    </empleado>
+    <empleado> 
+        <nombre>Carlos Ruiz</nombre> 
+        <departamento>RRHH</departamento> 
+        <salario>38000</salario> 
+    </empleado>
+</empleados>
