@@ -1,5 +1,5 @@
 from lxml import etree
-from basex import BaseXClient
+from BaseXClient import BaseXClient
 import os
 
 # Cargar el archivo XML
@@ -85,4 +85,4 @@ def ejecutar_xquery():
 if __name__ == "__main__":
     print("Demostración de XPath y XQuery")
     ejecutar_xpath()
-    # ejecutar_xquery()
+    ejecutar_xquery()
